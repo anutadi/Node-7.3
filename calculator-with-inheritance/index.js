@@ -3,7 +3,7 @@ var Operation = function(...nums){
 }
 
 Operation.prototype.operate = function(){
-	throw new Error('Not Implemented')
+	return('Not Implemented')
 }
 
 var AddOperation = function(...nums){
